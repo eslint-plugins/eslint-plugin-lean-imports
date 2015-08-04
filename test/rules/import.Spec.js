@@ -1,9 +1,9 @@
-import EslintTester from 'eslint-tester';
+import rule from '../../lib/rules/import';
 import eslint from 'eslint';
 
-let tester = new EslintTester(eslint.linter);
+const tester = new eslint.RuleTester();
 
-tester.addRuleTest('src/rules/import', {
+tester.run('src/rules/import', rule, {
   valid: [
     {
       code: 'import "something"',
