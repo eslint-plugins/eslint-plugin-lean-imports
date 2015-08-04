@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-lean-imports",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ESLint Plugin to make sure your imports only import the bits you need",
   "main": "lib/index.js",
   "directories": {
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/eslint-plugins/eslint-plugin-lean-imports#readme",
   "peerDependencies": {
-     "eslint": "^1.0.0"
+    "eslint": "^1.0.0"
   },
   "devDependencies": {
     "babel": "^5.8.5",
