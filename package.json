@@ -12,7 +12,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "npm run lint && mocha",
+    "test": "npm run lint && npm run build && mocha",
     "build": "rm -rf lib && babel src --out-dir lib",
     "lint": "eslint ./",
     "patch": "release patch",
