@@ -1,3 +1,11 @@
+v0.2.0 - Tue, 04 Aug 2015 06:45:01 GMT
+--------------------------------------
+
+- [701f06b](../../commit/701f06b) [fixed] issue with test with the new context options
+- [9bcd19f](../../commit/9bcd19f) [fixed] issue with context options
+
+
+
 v0.1.3 - Tue, 04 Aug 2015 06:30:38 GMT
 --------------------------------------
 
