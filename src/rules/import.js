@@ -7,7 +7,7 @@
 
 export default function(context) {
   // merge rules with default
-  const libraries = context.options || [];
+  const libraries = context.options ? context.options[0] : [];
   return {
     ImportDeclaration: function(node) {
       const index = libraries.indexOf(node.source.value);
