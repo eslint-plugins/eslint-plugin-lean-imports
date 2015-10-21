@@ -53,9 +53,19 @@ Here are the supported libraries:
 
 * [import](docs/rules/import.md) Prevent an array of library from being completely imported
 
-## To Do
 
-* Add Contributing Guide, until then PRs welcome!
+## Contributing
+
+PRs are welcome if you have ideas.
+
+Just make sure your commit is prefixed by one of the following: 
+
+- `[added]`
+- `[changed]`
+- `[fixed]`
+- `[removed]`
+
+For changed or removed, just make sure to add an upgrade path in the commit message.
 
 [Ideas are welcome](https://github.com/eslint-plugins/eslint-plugin-lean-imports/issues)
 
