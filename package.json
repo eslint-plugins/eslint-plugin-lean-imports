@@ -15,9 +15,9 @@
     "test": "npm run lint && npm run build && mocha",
     "build": "rm -rf lib && babel src --out-dir lib",
     "lint": "eslint ./",
-    "patch": "release --run patch",
-    "minor": "release --run minor",
-    "major": "release --run major"
+    "patch": "release patch",
+    "minor": "release minor",
+    "major": "release major"
   },
   "repository": {
     "type": "git",
