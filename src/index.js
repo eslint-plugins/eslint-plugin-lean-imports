@@ -1,6 +1,6 @@
 import importRule from './rules/import';
 
-export default {
+module.exports = {
   rules: {
     'import': importRule
   },
