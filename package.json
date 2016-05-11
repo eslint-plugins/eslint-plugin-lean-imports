@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/eslint-plugins/eslint-plugin-lean-imports#readme",
   "peerDependencies": {
-    "eslint": "~2.2.0"
+    "eslint": ">=2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
