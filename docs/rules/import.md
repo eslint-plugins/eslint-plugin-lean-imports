@@ -9,7 +9,7 @@ The second parameter takes an array of the name of the library you want to test 
 
 With the following config
 ```
-"lean-imports": [1, ["lodash"]]
+"lean-imports/import": [1, ["lodash"]]
 ```
 The following patterns are considered warnings:
 
