@@ -47,7 +47,7 @@ Finally, enable all of the rules that you would like to use.
   "rules": {
     "lean-imports/import": [1, [
         "lodash",
-        "react-bootstrap",
+        "react-bootstrap"
     ]]
   }
 }
