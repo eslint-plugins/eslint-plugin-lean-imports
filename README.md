@@ -4,7 +4,15 @@ ESLint-plugin-lean-imports
 [![Travis Build Status][build-badge]][build]
 [![devDependency Status][dev-deps-badge]][dev-deps]
 
-Make sure your imports only import the bits you need
+Make sure your imports only import the bits you need. Named imports actually import the entire library. So for example, this imports *all* of react-bootstrap:
+
+`import {Tab} from 'react-bootstrap'`
+
+In contrast, the direct import style only imports the specifically imported item:
+
+`import Tab from 'react-bootstrap/lib/Tab';`
+
+To avoid unnecessary bloating your bundle, this linting rule forbids the use of the named import style above, for the libraries that you specify in the configuration.
 
 # Installation
 
